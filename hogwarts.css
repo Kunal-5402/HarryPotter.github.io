@@ -1,0 +1,96 @@
+body {
+    color: white;
+    background-image: url('https://wallpaperaccess.com/full/541378.jpg');
+    background-size: 1450px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.left {
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+.left img {
+    padding-left: 5px;
+    /* border: 2px solid red; */
+    width: 50px;
+
+}
+.mid {
+    display: block;
+    width: 42%;
+    margin: 12px auto;
+    /* border: 2px solid yellow; */
+}
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: rgb(201, 182, 182);
+}
+.btn{
+    color: white;
+    font-family:'Baloo Bhai 2', cursive;
+    font-size: 20px;
+    border: 2px solid rgb(255, 0, 0);
+    width: 120px;
+    height: 35px;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    margin: 0px 5px;
+    font-weight: bolder;
+}
+.btn:hover{
+    background-color: rgb(117, 117, 117);
+    cursor: pointer;
+}
+.container{
+    border: 3px solid white;
+    margin: 60px 30px;
+    padding: 37px 126px;
+    width: 24%;
+    border-radius: 20px;
+}
+.container:hover{
+    background-image: url('https://i.pinimg.com/originals/98/8e/2b/988e2b3fd344c2f07efb5d432731a4ea.jpg');
+    background-size: 600px;
+}
+h1{
+    text-align: center;
+}
+.elements_of_form input{
+    font-family:'Baloo Bhai 2', cursive;
+    text-align: center;
+    font-weight: bolder;
+    width: 220px;
+    padding: 10px 60px;
+    padding-left: 60px;
+    margin-top: 7px;
+    font-size: 16px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: rgb(129, 247, 247);
+    display: block;
+}
+.container button{
+    margin: 10px;
+    margin-left: 92px;
+}
